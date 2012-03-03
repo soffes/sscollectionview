@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2221C131502A8AD00B36E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2221C121502A8AD00B36E61 /* UIKit.framework */; };
+		B2221C151502A8AD00B36E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2221C141502A8AD00B36E61 /* Foundation.framework */; };
+		B2221C171502A8AD00B36E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2221C161502A8AD00B36E61 /* CoreGraphics.framework */; };
+		B2221C361502A8EC00B36E61 /* CEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C301502A8EC00B36E61 /* CEAppDelegate.m */; };
+		B2221C371502A8EC00B36E61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C321502A8EC00B36E61 /* main.m */; };
+		B2221C481502A99100B36E61 /* SSCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C3B1502A99100B36E61 /* SSCollectionView.m */; };
+		B2221C491502A99100B36E61 /* SSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C3D1502A99100B36E61 /* SSCollectionViewController.m */; };
+		B2221C4A1502A99100B36E61 /* SSCollectionViewExtremityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C3F1502A99100B36E61 /* SSCollectionViewExtremityTableViewCell.m */; };
+		B2221C4B1502A99100B36E61 /* SSCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C421502A99100B36E61 /* SSCollectionViewItem.m */; };
+		B2221C4C1502A99100B36E61 /* SSCollectionViewItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C451502A99100B36E61 /* SSCollectionViewItemTableViewCell.m */; };
+		B2221C4D1502A99100B36E61 /* SSCollectionViewTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C471502A99100B36E61 /* SSCollectionViewTableView.m */; };
+		B2221C5F1502AB0100B36E61 /* CERootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2221C5E1502AB0100B36E61 /* CERootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2221C0E1502A8AD00B36E61 /* SSCollectionView Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSCollectionView Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2221C121502A8AD00B36E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2221C141502A8AD00B36E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2221C161502A8AD00B36E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2221C2F1502A8EC00B36E61 /* CEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEAppDelegate.h; sourceTree = "<group>"; };
+		B2221C301502A8EC00B36E61 /* CEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEAppDelegate.m; sourceTree = "<group>"; };
+		B2221C321502A8EC00B36E61 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2221C331502A8EC00B36E61 /* SSCollectionView Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSCollectionView Example-Prefix.pch"; sourceTree = "<group>"; };
+		B2221C351502A8EC00B36E61 /* SSCollectionView Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSCollectionView Example-Info.plist"; sourceTree = "<group>"; };
+		B2221C3A1502A99100B36E61 /* SSCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionView.h; sourceTree = "<group>"; };
+		B2221C3B1502A99100B36E61 /* SSCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCollectionView.m; sourceTree = "<group>"; };
+		B2221C3C1502A99100B36E61 /* SSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionViewController.h; sourceTree = "<group>"; };
+		B2221C3D1502A99100B36E61 /* SSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCollectionViewController.m; sourceTree = "<group>"; };
+		B2221C3E1502A99100B36E61 /* SSCollectionViewExtremityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionViewExtremityTableViewCell.h; sourceTree = "<group>"; };
+		B2221C3F1502A99100B36E61 /* SSCollectionViewExtremityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCollectionViewExtremityTableViewCell.m; sourceTree = "<group>"; };
+		B2221C401502A99100B36E61 /* SSCollectionViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionViewInternal.h; sourceTree = "<group>"; };
+		B2221C411502A99100B36E61 /* SSCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionViewItem.h; sourceTree = "<group>"; };
+		B2221C421502A99100B36E61 /* SSCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCollectionViewItem.m; sourceTree = "<group>"; };
+		B2221C431502A99100B36E61 /* SSCollectionViewItemInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionViewItemInternal.h; sourceTree = "<group>"; };
+		B2221C441502A99100B36E61 /* SSCollectionViewItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionViewItemTableViewCell.h; sourceTree = "<group>"; };
+		B2221C451502A99100B36E61 /* SSCollectionViewItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCollectionViewItemTableViewCell.m; sourceTree = "<group>"; };
+		B2221C461502A99100B36E61 /* SSCollectionViewTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionViewTableView.h; sourceTree = "<group>"; };
+		B2221C471502A99100B36E61 /* SSCollectionViewTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCollectionViewTableView.m; sourceTree = "<group>"; };
+		B2221C5D1502AB0100B36E61 /* CERootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERootViewController.h; sourceTree = "<group>"; };
+		B2221C5E1502AB0100B36E61 /* CERootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2221C0B1502A8AD00B36E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2221C131502A8AD00B36E61 /* UIKit.framework in Frameworks */,
+				B2221C151502A8AD00B36E61 /* Foundation.framework in Frameworks */,
+				B2221C171502A8AD00B36E61 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2221C031502A8AD00B36E61 = {
+			isa = PBXGroup;
+			children = (
+				B2221C2E1502A8EC00B36E61 /* Classes */,
+				B2221C311502A8EC00B36E61 /* Other Sources */,
+				B2221C341502A8EC00B36E61 /* Resources */,
+				B2221C111502A8AD00B36E61 /* Frameworks */,
+				B2221C0F1502A8AD00B36E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2221C0F1502A8AD00B36E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2221C0E1502A8AD00B36E61 /* SSCollectionView Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2221C111502A8AD00B36E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2221C121502A8AD00B36E61 /* UIKit.framework */,
+				B2221C141502A8AD00B36E61 /* Foundation.framework */,
+				B2221C161502A8AD00B36E61 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2221C2E1502A8EC00B36E61 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B2221C2F1502A8EC00B36E61 /* CEAppDelegate.h */,
+				B2221C301502A8EC00B36E61 /* CEAppDelegate.m */,
+				B2221C5D1502AB0100B36E61 /* CERootViewController.h */,
+				B2221C5E1502AB0100B36E61 /* CERootViewController.m */,
+				B2221C391502A99100B36E61 /* SSCollectionView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B2221C311502A8EC00B36E61 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B2221C321502A8EC00B36E61 /* main.m */,
+				B2221C331502A8EC00B36E61 /* SSCollectionView Example-Prefix.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		B2221C341502A8EC00B36E61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2221C351502A8EC00B36E61 /* SSCollectionView Example-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2221C391502A99100B36E61 /* SSCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B2221C3A1502A99100B36E61 /* SSCollectionView.h */,
+				B2221C3B1502A99100B36E61 /* SSCollectionView.m */,
+				B2221C3C1502A99100B36E61 /* SSCollectionViewController.h */,
+				B2221C3D1502A99100B36E61 /* SSCollectionViewController.m */,
+				B2221C3E1502A99100B36E61 /* SSCollectionViewExtremityTableViewCell.h */,
+				B2221C3F1502A99100B36E61 /* SSCollectionViewExtremityTableViewCell.m */,
+				B2221C401502A99100B36E61 /* SSCollectionViewInternal.h */,
+				B2221C411502A99100B36E61 /* SSCollectionViewItem.h */,
+				B2221C421502A99100B36E61 /* SSCollectionViewItem.m */,
+				B2221C431502A99100B36E61 /* SSCollectionViewItemInternal.h */,
+				B2221C441502A99100B36E61 /* SSCollectionViewItemTableViewCell.h */,
+				B2221C451502A99100B36E61 /* SSCollectionViewItemTableViewCell.m */,
+				B2221C461502A99100B36E61 /* SSCollectionViewTableView.h */,
+				B2221C471502A99100B36E61 /* SSCollectionViewTableView.m */,
+			);
+			name = SSCollectionView;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2221C0D1502A8AD00B36E61 /* SSCollectionView Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2221C261502A8AE00B36E61 /* Build configuration list for PBXNativeTarget "SSCollectionView Example" */;
+			buildPhases = (
+				B2221C0A1502A8AD00B36E61 /* Sources */,
+				B2221C0B1502A8AD00B36E61 /* Frameworks */,
+				B2221C0C1502A8AD00B36E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSCollectionView Example";
+			productName = "SSCollectionView Example";
+			productReference = B2221C0E1502A8AD00B36E61 /* SSCollectionView Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2221C051502A8AD00B36E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CE;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Synthetic;
+			};
+			buildConfigurationList = B2221C081502A8AD00B36E61 /* Build configuration list for PBXProject "SSCollectionView Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2221C031502A8AD00B36E61;
+			productRefGroup = B2221C0F1502A8AD00B36E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2221C0D1502A8AD00B36E61 /* SSCollectionView Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2221C0C1502A8AD00B36E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2221C0A1502A8AD00B36E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2221C361502A8EC00B36E61 /* CEAppDelegate.m in Sources */,
+				B2221C371502A8EC00B36E61 /* main.m in Sources */,
+				B2221C481502A99100B36E61 /* SSCollectionView.m in Sources */,
+				B2221C491502A99100B36E61 /* SSCollectionViewController.m in Sources */,
+				B2221C4A1502A99100B36E61 /* SSCollectionViewExtremityTableViewCell.m in Sources */,
+				B2221C4B1502A99100B36E61 /* SSCollectionViewItem.m in Sources */,
+				B2221C4C1502A99100B36E61 /* SSCollectionViewItemTableViewCell.m in Sources */,
+				B2221C4D1502A99100B36E61 /* SSCollectionViewTableView.m in Sources */,
+				B2221C5F1502AB0100B36E61 /* CERootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2221C241502A8AE00B36E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2221C251502A8AE00B36E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2221C271502A8AE00B36E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/SSCollectionView Example-Prefix.pch";
+				INFOPLIST_FILE = "Resources/SSCollectionView Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2221C281502A8AE00B36E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/SSCollectionView Example-Prefix.pch";
+				INFOPLIST_FILE = "Resources/SSCollectionView Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2221C081502A8AD00B36E61 /* Build configuration list for PBXProject "SSCollectionView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2221C241502A8AE00B36E61 /* Debug */,
+				B2221C251502A8AE00B36E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2221C261502A8AE00B36E61 /* Build configuration list for PBXNativeTarget "SSCollectionView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2221C271502A8AE00B36E61 /* Debug */,
+				B2221C281502A8AE00B36E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2221C051502A8AD00B36E61 /* Project object */;
+}
